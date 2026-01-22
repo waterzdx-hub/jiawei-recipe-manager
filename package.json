@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "node --version && npm --version && npx vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -17,5 +17,8 @@
     "@vitejs/plugin-react": "^5.0.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
+  },
+  "engines": {
+  "node": ">=18.0.0"
   }
 }
