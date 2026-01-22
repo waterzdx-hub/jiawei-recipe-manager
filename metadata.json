@@ -1,0 +1,7 @@
+{
+  "name": "家味 (Jiawei) - 家庭菜谱管理器",
+  "description": "一个温馨且功能齐全的家庭菜谱管理应用，支持浏览家传菜谱、添加新菜色以及规划每日菜单。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
